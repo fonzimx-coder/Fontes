@@ -51,6 +51,36 @@
             margin-bottom: 8px;
         }
 
+        nav {
+            position: sticky;
+            top: 0;
+            background: #3b6a4f;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 0 0 12px 12px;
+            z-index: 50;
+            box-shadow: 0 3px 8px rgba(0,0,0,.25);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         .hero {
             text-align: center;
             padding: 24px 16px;
@@ -86,6 +116,30 @@
 </head>
 <body>
     <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#anexos">Anexos</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#tematicas">Temáticas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section id="anexos" class="panel">
+            <h2>Anexos</h2>
+            <h3>Fechas importantes</h3>
+            <ul>
+                <li>Inicio para recepción de artículos: 29 de junio</li>
+                <li>Notificación de aceptación: 24 de agosto</li>
+                <li>Recepción de versión final de artículos: 11 de septiembre</li>
+            </ul>
+            <h3>Información adicional</h3>
+            <p>Instituto de Física de la Benemérita Universidad Autónoma de Puebla y ESIME Zacatenco IEEE Student Branch.</p>
+            <p>Informes: <a href="http://www.onies.ipn.mx" target="_blank">http://www.onies.ipn.mx</a></p>
+            <h3>Comité organizador</h3>
+            <p>Dr. Eloy Ramírez García, Dr. Adolfo Fontes, Dr. Fermín Pascual Espino Cortés, Dr. Gerardo Antúnez Castro, Dr. Miguel Ángel Martínez Cruz, Dr. Óscar Carranza Castillo, Dr. Erick Eugenio Linares Vallejo, M. en C. Alejandro Trejo León, Ing. Ricardo Martínez Martínez, Ing. Ernesto Treviño Dimas, Ing. Jenny Jazmín González González, Ing. Abel Salas Gutiérrez.</p>
+        </section>
+
         <header class="hero">
             <h1>PRUEBA DE VISTA - RECARGA REALIZADA</h1>
             <p>XXIV Congreso Nacional de Ingeniería Electromecánica y de Sistemas (CNIES XXIV). Si ves este texto, estás viendo el HTML actualizado.</p>
@@ -157,6 +211,21 @@
                 </ul>
             </article>
         </div>
+
+        <section id="anexos" class="panel">
+            <h2>Anexos</h2>
+            <h3>Fechas importantes</h3>
+            <ul>
+                <li>Inicio para recepción de artículos: 29 de junio</li>
+                <li>Notificación de aceptación: 24 de agosto</li>
+                <li>Recepción de versión final de artículos: 11 de septiembre</li>
+            </ul>
+            <h3>Información adicional</h3>
+            <p>Instituto de Física de la Benemérita Universidad Autónoma de Puebla y ESIME Zacatenco IEEE Student Branch.</p>
+            <p>Informes: <a href="http://www.onies.ipn.mx" target="_blank">http://www.onies.ipn.mx</a></p>
+            <h3>Comité organizador</h3>
+            <p>Dr. Eloy Ramírez García, Dr. Adolfo Fontes, Dr. Fermín Pascual Espino Cortés, Dr. Gerardo Antúnez Castro, Dr. Miguel Ángel Martínez Cruz, Dr. Óscar Carranza Castillo, Dr. Erick Eugenio Linares Vallejo, M. en C. Alejandro Trejo León, Ing. Ricardo Martínez Martínez, Ing. Ernesto Treviño Dimas, Ing. Jenny Jazmín González González, Ing. Abel Salas Gutiérrez.</p>
+        </section>
 
         <footer>
             <p>Repositorio: <strong>Fontes</strong> | Propietario: <strong>fonzimx-coder</strong> | Rama: <strong>main</strong></p>
