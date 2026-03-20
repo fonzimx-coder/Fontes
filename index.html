@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes - Repositorio</title>
+    <style>
+        :root {
+            --bg: #f2f7f0;
+            --card: #f8f9f4;
+            --accent: #3b6a4f;
+            --accent2: #7c9e7d;
+            --text: #1f4030;
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .triptico {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .panel {
+            background: var(--card);
+            border: 1px solid #dfe6db;
+            border-radius: 12px;
+            padding: 18px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .panel h2 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .panel h3 {
+            color: var(--accent2);
+            margin-bottom: 8px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 24px 16px;
+            margin-bottom: 20px;
+            background-image: linear-gradient(135deg, #a6cfaf, #65896b);
+            color: white;
+            border-radius: 12px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            letter-spacing: 0.02em;
+        }
+
+        .hero p {
+            margin: 8px 0 0;
+        }
+
+        ul { padding-left: 20px; }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #2f452c;
+            font-size: 0.95rem;
+        }
+
+        @media (min-width: 900px) {
+            .triptico { grid-template-columns: repeat(3, 1fr); }
+            .panel { min-height: 400px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="hero">
+            <h1>PRUEBA DE VISTA - RECARGA REALIZADA</h1>
+            <p>XXIV Congreso Nacional de Ingeniería Electromecánica y de Sistemas (CNIES XXIV). Si ves este texto, estás viendo el HTML actualizado.</p>
+            <p>Evento anual para especialistas y estudiantes de Ingeniería: Mecánica, Eléctrica, Electrónica, Telecomunicaciones y Sistemas.</p>
+        </header>
+
+        <div class="triptico">
+            <article class="panel">
+                <h2>Objetivo</h2>
+                <p>Reunir a especialistas y estudiantes nacionales e internacionales para exponer y discutir temas de actualidad en ingeniería y educación.</p>
+
+                <h3>Actividades</h3>
+                <ul>
+                    <li>Ponencias</li>
+                    <li>Carteles</li>
+                </ul>
+
+                <h3>Información para autores</h3>
+                <p>Artículos en PDF/Word, máximo 4 páginas. Aceptación por Comité Técnico. Presentación según programa organizador.</p>
+            </article>
+
+            <article class="panel">
+                <h2>Temáticas - Ingeniería Eléctrica</h2>
+                <ul>
+                    <li>Alta Tensión y Aislamiento Eléctrico</li>
+                    <li>Análisis de Sistemas de Distribución</li>
+                    <li>Análisis y Control de Máquinas Eléctricas</li>
+                    <li>Calidad de la Energía</li>
+                    <li>Estabilidad y Operación de Sistemas de Potencia</li>
+                    <li>IA Aplicada a Ingeniería Eléctrica</li>
+                    <li>Protección Digital</li>
+                    <li>Redes Inteligentes</li>
+                    <li>Compatibilidad Electromagnética</li>
+                </ul>
+
+                <h3>Mecánica</h3>
+                <ul>
+                    <li>Aerodinámica</li>
+                    <li>Biomateriales y Biorremediación</li>
+                    <li>Fabricación</li>
+                    <li>Fluidos Técnicos y Turbinas</li>
+                    <li>Metrología y Simulación</li>
+                    <li>Vibraciones y Seguridad Industrial</li>
+                </ul>
+            </article>
+
+            <article class="panel">
+                <h2>Temáticas - Redes y Energía</h2>
+                <h3>Telecomunicaciones</h3>
+                <ul>
+                    <li>Sistemas de Comunicaciones</li>
+                    <li>Redes de Datos</li>
+                    <li>Procesamiento de Señales</li>
+                    <li>Dispositivos Avanzados</li>
+                </ul>
+
+                <h3>Ingeniería de Sistemas</h3>
+                <ul>
+                    <li>Sistemas complejos e integración</li>
+                    <li>Sistemas de información y comunicación</li>
+                </ul>
+
+                <h3>ENERGÍA</h3>
+                <ul>
+                    <li>Energías alternas y convencionales</li>
+                    <li>Pilas de combustible e hidrógeno</li>
+                    <li>Biocombustibles</li>
+                    <li>Eficiencia y sostenibilidad</li>
+                </ul>
+            </article>
+        </div>
+
+        <footer>
+            <p>Repositorio: <strong>Fontes</strong> | Propietario: <strong>fonzimx-coder</strong> | Rama: <strong>main</strong></p>
+            <p><a href="https://github.com/fonzimx-coder/Fontes" target="_blank">Ver en GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html></content>
+<parameter name="filePath">/workspaces/Fontes/index.html
